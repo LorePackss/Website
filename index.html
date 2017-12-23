@@ -1,660 +1,533 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
-    <!-- BEGIN HEAD -->
-    <head>
-        <meta charset="utf-8"/>
-        <title>LorePacks Website</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta content="width=device-width, initial-scale=1" name="viewport"/>
-        <meta content="" name="description"/>
-        <meta content="" name="author"/>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>LorePacks Website</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-        <!-- GLOBAL MANDATORY STYLES -->
-        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
-        <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
-        <!-- PAGE LEVEL PLUGIN STYLES -->
-        <link href="css/animate.css" rel="stylesheet">
-        <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
-        <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css"/>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
 
-        <!-- THEME STYLES -->
-        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="favicon.ico"/>
-    </head>
-    <!-- END HEAD -->
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
 
-    <!-- BODY -->
-    <body id="body" data-spy="scroll" data-target=".header">
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
 
-        <!--========== HEADER ==========-->
-        <header class="header navbar-fixed-top">
-            <!-- Navbar -->
-            <nav class="navbar" role="navigation">
-                <div class="container">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="menu-container js_nav-item">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="toggle-icon"></span>
-                        </button>
+  <!-- =======================================================
+    Theme Name: Regna
+    Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
 
-                        <!-- Logo -->
-                        <div class="logo">
-                            <a class="logo-wrap" href="#body">
-                                <img class="logo-img logo-img-main" src="img/logo.png" alt="Asentus Logo">
-                                <img class="logo-img logo-img-active" src="img/logo-dark.png" alt="Asentus Logo">
-                            </a>
-                        </div>
-                        <!-- End Logo -->
-                    </div>
+<body>
 
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse nav-collapse">
-                        <div class="menu-container">
-                            <ul class="nav navbar-nav navbar-nav-right">
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#products">Products</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#service">Service</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Work</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#pricing">Pricing</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- End Navbar Collapse -->
-                </div>
-            </nav>
-            <!-- Navbar -->
-        </header>
-        <!--========== END HEADER ==========-->
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header">
+    <div class="container">
 
-        <!--========== SLIDER ==========-->
-        <div class="promo-block">
-            <div class="container">
-                <div class="margin-b-40">
-                    <h1 class="promo-block-title">Welcome.</h1>
-                    <p class="promo-block-text">Are you looking for a good texture pack? Say no more! LorePacks is here for you.</p>
-                </div>
-                <a class="js_popup-youtube btn-theme btn-theme-md btn-white-bg text-uppercase" href="https://www.youtube.com/user/ItsRuzikYT/" title="Intro Video"><i class="btn-icon icon-control-play"></i> Check my YouTube channel.</a>
+      <div id="logo" class="pull-left">
+        <a href="#hero"><img src="img/logo.png" alt="" title="" /></img></a>
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!--<h1><a href="#hero">Regna</a></h1>-->
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#hero">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Team</a></li>
+          <li class="menu-has-children"><a href="">Free Releases</a>
+            <ul>
+              <li><a href="#">Not Available</a></li>
+              <li class="menu-has-children"><a href="#">Not Available</a>
+                <ul>
+                  <li><a href="#">Not Available</a></li>
+                  <li><a href="#">Not Available</a></li>
+                  <li><a href="#">Not Available</a></li>
+                  <li><a href="#">Not Available</a></li>
+                  <li><a href="#">Not Available</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Not Available</a></li>
+              <li><a href="#">Not Available</a></li>
+              <li><a href="#">Not Available</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Hero Section
+  ============================-->
+  <section id="hero">
+    <div class="hero-container">
+      <h1>Welcome.</h1>
+      <h2>Are you looking for a good texture pack? Say no more! LorePacks is here for you.</h2>
+      <a href="#about" class="btn-get-started">Get Started</a>
+    </div>
+  </section><!-- #hero -->
+
+  <main id="main">
+
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about">
+      <div class="container">
+        <div class="row about-container">
+
+          <div class="col-lg-6 content order-lg-1 order-2">
+            <h2 class="title">Who is LorePacks?</h2>
+            <p>
+              LorePacks is a youtuber with more than 1,500 subscribers on the platform. He has been working in this business for over 2 years with the fortune of having many satisfied customers. Join the community now!
+            </p>
+
+            <div class="icon-box wow fadeInUp">
+              <div class="icon"><i class="fa fa-shopping-bag"></i></div>
+              <h4 class="title"><a href="">Professionalism</a></h4>
+              <p class="description">In our company, we try to maintain the highest professionalism possible. We grant quality work.</p>
             </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+              <div class="icon"><i class="fa fa-photo"></i></div>
+              <h4 class="title"><a href="">Warranty</a></h4>
+              <p class="description">We offer an exceptional guarantee. If you do not like our work, you have 2 hours to claim.</p>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+              <div class="icon"><i class="fa fa-bar-chart"></i></div>
+              <h4 class="title"><a href="">Passion</a></h4>
+              <p class="description">We offer a great product quality, we put all our effort into them to maintain the high quality.</p>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
         </div>
-        <!--========== SLIDER ==========-->
 
-        <!--========== PAGE LAYOUT ==========-->
-        <!-- Products -->
-        <div id="products">
-            <div class="container content-lg">
-                <div class="row text-center margin-b-40">
-                    <div class="col-sm-6 col-sm-offset-3">
-                        <h2>Latest Releases</h2>
-                        <p>Here you can see my lastest texture packs releases!</p>
-                    </div>
-                </div>
-                <!--// end row -->
+      </div>
+    </section><!-- #about -->
 
-                <div class="row">
-                    <!-- Latest Products -->
-                    <div class="col-sm-4 sm-margin-b-50">
-                        <div class="margin-b-20">
-                            <img class="img-responsive wow fadeIn" src="img/970x647/01.jpg" alt="Latest Products Image" data-wow-duration=".3" data-wow-delay=".1s">
-                        </div>
-                        <h4><a href="#">XethaFaith</a> <span class="text-uppercase margin-l-20">Popular!</span></h4>
-                        <p>Here you have a revamp of the XethaFaith texture created orginally by Apexay.</p>
-                        <a class="link" href="https://twitter.com/lorepacks/status/942171154923511808">Read More</a>
-                    </div>
-                    <!-- End Latest Products -->
-
-                    <!-- Latest Products -->
-                    <div class="col-sm-4 sm-margin-b-50">
-                        <div class="margin-b-20">
-                            <img class="img-responsive wow fadeIn" src="img/970x647/02.jpg" alt="Latest Products Image" data-wow-duration=".3" data-wow-delay=".2s">
-                        </div>
-                        <h4><a href="#">CheatBreaker</a> <span class="text-uppercase margin-l-20">Popular!</span></h4>
-                        <p>A popular texture pack! Here you have the best CheatBreaker texture pack out there.</p>
-                        <a class="link" href="https://www.youtube.com/watch?v=BNb6sn_Lps4">Read More</a>
-                    </div>
-                    <!-- End Latest Products -->
-
-                    <!-- Latest Products -->
-                    <div class="col-sm-4 sm-margin-b-50">
-                        <div class="margin-b-20">
-                            <img class="img-responsive wow fadeIn" src="img/970x647/03.jpg" alt="Latest Products Image" data-wow-duration=".3" data-wow-delay=".3s">
-                        </div>
-                        <h4><a href="#">Blue Sapphire Revamp</a> <span class="text-uppercase margin-l-20">Popular!</span></h4>
-                        <p>The best Kohi revamp!</p>
-                        <a class="link" href="https://twitter.com/lorepacks/status/941495810151170049">Read More</a>
-                    </div>
-                    <!-- End Latest Products -->
-                </div>
-                <!--// end row -->
-            </div>
-
-            <div class="container-full-width">
-                <div class="row row-space-2">
-                    <div class="col-sm-6 sm-margin-b-4">
-                        <img class="img-responsive" src="img/970x647/04.jpg" alt="Image">
-                    </div>
-                    <div class="col-sm-6">
-                        <img class="img-responsive" src="img/970x647/05.jpg" alt="Image">
-                    </div>
-                </div>
-                <!--// end row -->
-            </div>
+    <!--==========================
+      Facts Section
+    ============================-->
+    <section id="facts">
+      <div class="container wow fadeIn">
+        <div class="section-header">
+          <h3 class="section-title">Facts</h3>
+          <p class="section-description">Here are some of our statistics that we have collected over the years.</p>
         </div>
-        <!-- End Products -->
+        <div class="row counters">
 
-        <!-- Service -->
-        <div id="service">
-            <div class="bg-color-sky-light" data-auto-height="true">
-                <div class="content-lg container">
-                    <div class="row row-space-2 margin-b-4">
-                        <div class="col-sm-4 sm-margin-b-4">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-chemistry"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>Good Prices</h3>
-                                    <p class="margin-b-5">All my prices are the best and accessible to the public.</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
-                        </div>
-                        <div class="col-sm-4 sm-margin-b-4">
-                            <div class="service bg-color-base wow fadeInDown" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
-                                <div class="service-element">
-                                    <i class="service-icon icon-speedometer"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3 class="color-white">Fast Delivery</h3>
-                                    <p class="color-white margin-b-5">All deliveries of the texture packs are fast and safe.</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-badge"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>Support 24/7</h3>
-                                    <p class="margin-b-5">Our support team is here to help you when you need it.</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
-                        </div>
-                    </div>
-                    <!--// end row -->
+  				<div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">100+</span>
+            <p>Clients</p>
+  				</div>
 
-                    <div class="row row-space-2">
-                        <div class="col-sm-4 sm-margin-b-4">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-notebook"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>Quick Contact</h3>
-                                    <p class="margin-b-5">You will always have the ability to send a message to our founder quickly.</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
-                        </div>
-                        <div class="col-sm-4 sm-margin-b-4">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-speedometer"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>Different Methods of Payment.</h3>
-                                    <p class="margin-b-5">At the moment, we're only accepting PayPal payments but we will be accepting more methods in the future.</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-badge"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>Free Releases</h3>
-                                    <p class="margin-b-5">Can not you pay? Do not worry. You will always have texture packs for free every week on my Youtube channel.</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
-                        </div>
-                    </div>
-                    <!--// end row -->
-                </div>
-            </div>
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">221</span>
+            <p>Texture Packs<p>
+  				</div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">600</span>
+            <p>Hours Of Support</p>
+  				</div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">4</span>
+            <p>Hard Workers</p>
+  				</div>
+
+  			</div>
+
+      </div>
+    </section><!-- #facts -->
+
+    <!--==========================
+      Services Section
+    ============================-->
+    <section id="services">
+      <div class="container wow fadeIn">
+        <div class="section-header">
+          <h3 class="section-title">Services</h3>
+          <p class="section-description">Here are all the services we offer.</p>
         </div>
-        <!-- End Service -->
-
-        <!-- Promo Banner -->
-        <div class="promo-banner">
-            <div class="container-sm content-lg">
-                <h2 class="promo-banner-title">Who is LorePacks?</h2>
-                <p class="promo-banner-text">LorePacks is a youtuber with more than 1,500 subscribers on the platform. He has been working in this business for over 2 years with the fortune of having many satisfied customers. Join the community now!</p>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-desktop"></i></a></div>
+              <h4 class="title"><a href="">Good Prices</a></h4>
+              <p class="description">All my prices are the best and accessible to the public.</p>
             </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-bar-chart"></i></a></div>
+              <h4 class="title"><a href="">Fast Delivery</a></h4>
+              <p class="description">All deliveries of the texture packs are fast and safe.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-paper-plane"></i></a></div>
+              <h4 class="title"><a href="">Support 24/7</a></h4>
+              <p class="description">Our support team is here to help you when you need it.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-photo"></i></a></div>
+              <h4 class="title"><a href="">Quick Contact</a></h4>
+              <p class="description">You will always have the ability to send a message to our founder quickly</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-road"></i></a></div>
+              <h4 class="title"><a href="">Different Methods of Payment.</a></h4>
+              <p class="description">At the moment, we're only accepting PayPal payments but we will be accepting more methods in the future.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-shopping-bag"></i></a></div>
+              <h4 class="title"><a href="">Free Releases</a></h4>
+              <p class="description">Can not you pay? Do not worry. You will always have texture packs for free every week on my Youtube channel.</p>
+            </div>
+          </div>
         </div>
-        <!-- End Promo Banner -->
 
-        <!-- Work -->
-        <div id="work">
-            <div class="content-md container">
-                <!-- Masonry Grid -->
-                <div class="masonry-grid row row-space-2">
-                    <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
-                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8 margin-b-4">
-                        <!-- Work -->
-                        <div class="work work-popup-trigger">
-                            <div class="work-overlay">
-                                <img class="full-width img-responsive" src="img/800x400/01.jpg" alt="Portfolio Image">
-                            </div>
-                            <div class="work-popup-overlay">
-                                <div class="work-popup-content">
-                                    <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                    <div class="margin-b-30">
-                                        <h3 class="margin-b-5">Art Of Coding</h3>
-                                        <span>Clean &amp; Minimalistic Design</span>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                            <div class="margin-t-10 sm-margin-t-0">
-                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                                <ul class="list-inline work-popup-tag">
-                                                    <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
-                                                    <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                    <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="margin-t-10 sm-margin-t-0">
-                                                <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
-                                                <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
-                                                <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
-                                                <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Work -->
-                    </div>
-                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4">
-                        <!-- Work -->
-                        <div class="work work-popup-trigger">
-                            <div class="work-overlay">
-                                <img class="full-width img-responsive" src="img/397x400/01.jpg" alt="Portfolio Image">
-                            </div>
-                            <div class="work-popup-overlay">
-                                <div class="work-popup-content">
-                                    <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                    <div class="margin-b-30">
-                                        <h3 class="margin-b-5">Art Of Coding</h3>
-                                        <span>Clean &amp; Minimalistic Design</span>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                            <div class="margin-t-10 sm-margin-t-0">
-                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                                <ul class="list-inline work-popup-tag">
-                                                    <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
-                                                    <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                    <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="margin-t-10 sm-margin-t-0">
-                                                <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
-                                                <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
-                                                <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
-                                                <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Work -->
-                    </div>
-                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
-                        <!-- Work -->
-                        <div class="work work-popup-trigger">
-                            <div class="work-overlay">
-                                <img class="full-width img-responsive" src="img/397x300/01.jpg" alt="Portfolio Image">
-                            </div>
-                            <div class="work-popup-overlay">
-                                <div class="work-popup-content">
-                                    <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                    <div class="margin-b-30">
-                                        <h3 class="margin-b-5">Art Of Coding</h3>
-                                        <span>Clean &amp; Minimalistic Design</span>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                            <div class="margin-t-10 sm-margin-t-0">
-                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                                <ul class="list-inline work-popup-tag">
-                                                    <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
-                                                    <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                    <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="margin-t-10 sm-margin-t-0">
-                                                <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
-                                                <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
-                                                <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
-                                                <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Work -->
-                    </div>
-                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
-                        <!-- Work -->
-                        <div class="work work-popup-trigger">
-                            <div class="work-overlay">
-                                <img class="full-width img-responsive" src="img/397x300/02.jpg" alt="Portfolio Image">
-                            </div>
-                            <div class="work-popup-overlay">
-                                <div class="work-popup-content">
-                                    <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                    <div class="margin-b-30">
-                                        <h3 class="margin-b-5">Art Of Coding</h3>
-                                        <span>Clean &amp; Minimalistic Design</span>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                            <div class="margin-t-10 sm-margin-t-0">
-                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                                <ul class="list-inline work-popup-tag">
-                                                    <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
-                                                    <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                    <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="margin-t-10 sm-margin-t-0">
-                                                <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
-                                                <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
-                                                <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
-                                                <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Work -->
-                    </div>
-                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
-                        <!-- Work -->
-                        <div class="work work-popup-trigger">
-                            <div class="work-overlay">
-                                <img class="full-width img-responsive" src="img/397x300/03.jpg" alt="Portfolio Image">
-                            </div>
-                            <div class="work-popup-overlay">
-                                <div class="work-popup-content">
-                                    <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                    <div class="margin-b-30">
-                                        <h3 class="margin-b-5">Art Of Coding</h3>
-                                        <span>Clean &amp; Minimalistic Design</span>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                            <div class="margin-t-10 sm-margin-t-0">
-                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                                <ul class="list-inline work-popup-tag">
-                                                    <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
-                                                    <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                    <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="margin-t-10 sm-margin-t-0">
-                                                <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
-                                                <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
-                                                <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
-                                                <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Work -->
-                    </div>
-                </div>
-                <!-- End Masonry Grid -->
-            </div>
+      </div>
+    </section><!-- #services -->
+
+    <!--==========================
+    Call To Action Section
+    ============================-->
+    <section id="call-to-action">
+      <div class="container wow fadeIn">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3 class="cta-title">Interested?</h3>
+            <p class="cta-text"> Interested in our offers? So what are you waiting for, join our community now!</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#">Pay Now!</a>
+          </div>
         </div>
-        <!-- End Work -->
 
-        <!-- Pricing -->
-        <div id="pricing">
-            <div class="bg-color-sky-light">
-                <div class="content-lg container">
-                    <div class="row row-space-2">
-                        <div class="col-sm-4 sm-margin-b-4">
-                            <!-- Pricing -->
-                            <div class="pricing">
-                                <div class="margin-b-30">
-                                    <i class="pricing-icon icon-chemistry"></i>
-                                    <h3>Basic Texture Pack <span> - $</span> 10</h3>
-                                    <p>Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <ul class="list-unstyled pricing-list margin-b-50">
-                                    <li class="pricing-list-item">Basic Features</li>
-                                    <li class="pricing-list-item">Custom Swords</li>
-                                    <li class="pricing-list-item">Custom Armor.</li>
-                                </ul>
-                                <a href="pricing.html" class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Select!</a>
-                            </div>
-                            <!-- End Pricing -->
-                        </div>
-                        <div class="col-sm-4 sm-margin-b-4">
-                            <!-- Pricing -->
-                            <div class="pricing pricing-active">
-                                <div class="margin-b-30">
-                                    <i class="pricing-icon icon-badge"></i>
-                                    <h3>Normal Texture Pack <span> - $</span> 20</h3>
-                                    <p>Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <ul class="list-unstyled pricing-list margin-b-50">
-                                    <li class="pricing-list-item">Basic Features</li>
-                                    <li class="pricing-list-item">Unique Texture Pack.</li>
-                                    <li class="pricing-list-item">Unique builds.</li>
-                                </ul>
-                                <a href="pricing.html" class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Select!</a>
-                            </div>
-                            <!-- End Pricing -->
-                        </div>
-                        <div class="col-sm-4">
-                            <!-- Pricing -->
-                            <div class="pricing">
-                                <div class="margin-b-30">
-                                    <i class="pricing-icon icon-shield"></i>
-                                    <h3>Advanced Texture Pack <span> - $</span> 30</h3>
-                                    <p>Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <ul class="list-unstyled pricing-list margin-b-50">
-                                    <li class="pricing-list-item">Extended Features</li>
-                                    <li class="pricing-list-item">Private Texture Pack</li>
-                                    <li class="pricing-list-item">Ultra HD textures.</li>
-                                </ul>
-                                <a href="pricing.html" class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Select!</a>
-                            </div>
-                            <!-- End Pricing -->
-                        </div>
-                    </div>
-                    <!--// end row -->
-                </div>
-            </div>
+      </div>
+    </section><!-- #call-to-action -->
+
+    <!--==========================
+      Portfolio Section
+    ============================-->
+    <section id="portfolio">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h3 class="section-title">Lastest Release</h3>
+          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
         </div>
-        <!-- End Pricing -->
+        <div class="row">
 
-        <!-- Testimonials -->
-        <div class="content-md container">
-            <div class="row">
-                <div class="col-sm-9">
-                    <h2>Customer Reviews</h2>
-
-                    <!-- Swiper Testimonials -->
-                    <div class="swiper-slider swiper-testimonials">
-                        <!-- Swiper Wrapper -->
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <blockquote class="blockquote">
-                                    <div class="margin-b-20">
-                                        Actually, I'm very happy with my texture pack. Without a doubt a great purchase. Selling is always very attentive and always answers my questions quickly.
-                                    </div>
-                                    <div class="margin-b-20">
-                                        I would definitely buy a texture pack again. Thank you very much :)
-                                    </div>
-                                    <p><span class="fweight-700 color-link">Unknown</span>, Normal Customer</p>
-                                </blockquote>
-                            </div>
-                            <div class="swiper-slide">
-                                <blockquote class="blockquote">
-                                    <div class="margin-b-20">
-                                        Thank you very much for creating this pack. Without a doubt it is one of the best purchases I've made in the history of mankind. thanks, now I have a girlfriend thanks to your texture packs.
-                                    </div>
-                                    <p><span class="fweight-700 color-link">Alex Clarson</span>, Exclusive Customer</p>
-                                </blockquote>
-                            </div>
-                        </div>
-                        <!-- End Swiper Wrapper -->
-
-                        <!-- Pagination -->
-                        <div class="swiper-testimonials-pagination"></div>
-                    </div>
-                    <!-- End Swiper Testimonials -->
-                </div>
-            </div>
-            <!--// end row -->
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              <li data-filter=".filter-app, .filter-card, .filter-logo, .filter-web" class="filter-active">All</li>
+              <li data-filter=".filter-app">16x</li>
+              <li data-filter=".filter-card">32x</li>
+              <li data-filter=".filter-logo">64x</li>
+              <li data-filter=".filter-web">256x</li>
+            </ul>
+          </div>
         </div>
-        <!-- End Testimonials -->
-            
-        <!-- Contact -->
-        <div id="contact">
-            <!-- Google Map -->
-            <div class="gmap">
-                <div id="map" class="map height-400"></div>
-                <address class="gmap-address">
-                    <p class="color-heading margin-b-0">277 Bedford Avenue, Brooklyn, NY 11211, New York, USA</p>
-                </address>
-            </div>
-            <!-- End Google Map -->
+
+        <div class="row" id="portfolio-wrapper">
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+            <a href="">
+              <img src="img/portfolio/16x1.jpg" alt="">
+              <div class="details">
+                <h4>App 1</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
+            <a href="">
+              <img src="img/portfolio/16x2.jpg" alt="">
+              <div class="details">
+                <h4>Web 2</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+            <a href="">
+              <img src="img/portfolio/16x3.jpg" alt="">
+              <div class="details">
+                <h4>App 3</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+            <a href="">
+              <img src="img/portfolio/32x1.jpg" alt="">
+              <div class="details">
+                <h4>Card 1</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+            <a href="">
+              <img src="img/portfolio/32x2.jpg" alt="">
+              <div class="details">
+                <h4>Card 2</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
+            <a href="">
+              <img src="img/portfolio/256x1.jpg" alt="">
+              <div class="details">
+                <h4>Web 3</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+            <a href="">
+              <img src="img/portfolio/256x2.jpg" alt="">
+              <div class="details">
+                <h4>Card 3</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+            <a href="">
+              <img src="img/portfolio/256x3.jpg" alt="">
+              <div class="details">
+                <h4>App 2</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
         </div>
-        <!-- End Contact -->
-        <!--========== END PAGE LAYOUT ==========-->
 
-        <!--========== FOOTER ==========-->
-        <footer class="footer">
-            <!-- Links -->
-            <div class="section-seperator">
-                <div class="content-md container">
-                    <div class="row">
-                        <div class="col-sm-2 sm-margin-b-30">
-                            <!-- List -->
-                            <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a href="#">Home</a></li>
-                                <li class="footer-list-item"><a href="#">About</a></li>
-                                <li class="footer-list-item"><a href="#">Work</a></li>
-                                <li class="footer-list-item"><a href="#">Contact</a></li>
-                            </ul>
-                            <!-- End List -->
-                        </div>
-                        <div class="col-sm-2 sm-margin-b-30">
-                            <!-- List -->
-                            <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a href="#">Twitter</a></li>
-                                <li class="footer-list-item"><a href="#">Facebook</a></li>
-                                <li class="footer-list-item"><a href="#">Instagram</a></li>
-                                <li class="footer-list-item"><a href="#">YouTube</a></li>
-                            </ul>
-                            <!-- End List -->
-                        </div>
-                        <div class="col-sm-3">
-                            <!-- List -->
-                            <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a href="#">Subscribe to Our Newsletter</a></li>
-                                <li class="footer-list-item"><a href="#">Privacy Policy</a></li>
-                                <li class="footer-list-item"><a href="#">Terms &amp; Conditions</a></li>
-                            </ul>
-                            <!-- End List -->
-                        </div>
-                    </div>
-                    <!--// end row -->
-                </div>
+      </div>
+    </section><!-- #portfolio -->
+
+    <!--==========================
+      Team Section
+    ============================-->
+    <section id="team">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h3 class="section-title">Team</h3>
+          <p class="section-description">These people help us keep our business active and fully functional.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/team-1.jpg" alt=""></div>
+              <h4>LorePacks</h4>
+              <span>Owner and Manager</span>
+              <div class="social">
+                <a href=""><i class="fa fa-twitter"></i></a>
+              </div>
             </div>
-            <!-- End Links -->
+          </div>
 
-            <!-- Copyright -->
-            <div class="content container">
-                <div class="row">
-                    <div class="col-xs-6">
-                        <img class="footer-logo" src="img/logo-dark.png" alt="Aironepage Logo">
-                    </div>
-                    <div class="col-xs-6 text-right">
-                        <p class="margin-b-0"><a class="fweight-700" href="#">Thanks for visiting! Have a wonderful day.</a> Website Powered by: <a class="fweight-700" href="https://twitter.com/Passivelyy">Passively</a></p>
-                    </div>
-                </div>
-                <!--// end row -->
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/team-2.jpg" alt=""></div>
+              <h4>Passively</h4>
+              <span>Website Manager</span>
+              <div class="social">
+                <a href=""><i class="fa fa-twitter"></i></a>
+              </div>
             </div>
-            <!-- End Copyright -->
-        </footer>
-        <!--========== END FOOTER ==========-->
+          </div>
 
-        <!-- Back To Top -->
-        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/team-3.jpg" alt=""></div>
+              <h4>Titis</h4>
+              <span>Proffesional Manager</span>
+              <div class="social">
+              </div>
+            </div>
+          </div>
 
-        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
-        <!-- CORE PLUGINS -->
-        <script src="vendor/jquery.min.js" type="text/javascript"></script>
-        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
-        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/team-4.jpg" alt=""></div>
+              <h4>Lil Pump</h4>
+              <span>Gucci Gang</span>
+              <div class="social">
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-facebook"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
 
-        <!-- PAGE LEVEL PLUGINS -->
-        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
-        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
-        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
-        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
-        <script src="vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
-        <script src="vendor/magnific-popup/jquery.magnific-popup.min.js" type="text/javascript"></script>
-        <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
-        <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsXUGTFS09pLVdsYEE9YrO2y4IAncAO2U&amp;callback=initMap" async defer></script>
+      </div>
+    </section><!-- #team -->
 
-        <!-- PAGE LEVEL SCRIPTS -->
-        <script src="js/layout.min.js" type="text/javascript"></script>
-        <script src="js/components/wow.min.js" type="text/javascript"></script>
-        <script src="js/components/swiper.min.js" type="text/javascript"></script>
-        <script src="js/components/maginific-popup.min.js" type="text/javascript"></script>
-        <script src="js/components/masonry.min.js" type="text/javascript"></script>
-        <script src="js/components/gmap.min.js" type="text/javascript"></script>
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h3 class="section-title">Contact</h3>
+          <p class="section-description">Do you want to contact LorePacks? Below you will have some methods of contact.</p>
+        </div>
+      </div>
 
-    </body>
-    <!-- END BODY -->
+      <div id="google-map" data-latitude="40.713732" data-longitude="-74.0092704"></div>
+
+      <div class="container wow fadeInUp">
+        <div class="row justify-content-center">
+
+          <div class="col-lg-3 col-md-4">
+
+            <div class="info">
+              <div>
+                <i class="fa fa-map-marker"></i>
+                <p>A108 Adam Street<br>New York, NY 535022</p>
+              </div>
+
+              <div>
+                <i class="fa fa-envelope"></i>
+                <p>lorepacks@support.net</p>
+              </div>
+
+              <div>
+                <i class="fa fa-phone"></i>
+                <p>+1-800-273-8255</p>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 col-md-8">
+            <div class="form">
+              <div id="sendmessage">Your message has been sent. Thank you!</div>
+              <div id="errormessage"></div>
+              <form action="" method="post" role="form" class="contactForm">
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <div class="validation"></div>
+                </div>
+                <div class="text-center"><button type="submit">Send Message</button></div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>LorePacks</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Regna
+        -->
+        Website created by: <a href="">Passively</a>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
+
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
 </html>
